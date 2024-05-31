@@ -6,6 +6,28 @@ import Layout from "../layouts/Layout.astro";
 	
 
 <body class=" text-center">
-	<h1>Eder-404</h1>
-	
+	<div class="text">
+        <p>Under Construction</p>
+        <p class="blink">Eder-404</p>
+    </div>
 </body>
+
+<style>
+	 body {
+            background-color: black;
+            color: #00ff00;
+            font-family: 'Orbitron', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .blink {
+            font-size: 2em;
+            animation: blink 1.5s linear infinite;
+        }
+        .text {
+            text-align: center;
+        }
+</style>
